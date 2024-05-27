@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/x-icon" href="public/figma1.ico" />
+
+  <style data-tag="reset-style-sheet">
+      html { line-height: 1.15; } 
+      body { margin: 0; } 
+      * { box-sizing: border-box; border-width: 0; border-style: solid; } 
+      p, li, ul, pre, div, h1, h2, h3, h4, h5, h6, figure, blockquote, figcaption { margin: 0; padding: 0; } 
+      button { background-color: transparent; } 
+      button, input, optgroup, select, textarea { font-family: inherit; font-size: 100%; line-height: 1.15; margin: 0; } 
+      button, select { text-transform: none; } 
+      button, [type="button"], [type="reset"], [type="submit"] { -webkit-appearance: button; } 
+      button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner { border-style: none; padding: 0; } 
+      button:-moz-focus, [type="button"]:-moz-focus, [type="reset"]:-moz-focus, [type="submit"]:-moz-focus { outline: 1px dotted ButtonText; } 
+      a { color: inherit; text-decoration: inherit; } 
+      input { padding: 2px 4px; } 
+      img { display: block; } 
+      html { scroll-behavior: smooth; }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Noto Sans;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+
+      .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+
+      .sidebar a {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+
+      .sidebar a:hover {
+        color: #f1f1f1;
+      }
+
+      .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="frame-container">
+        <div class="frame-frame">
+          <div class="frame-group9">
+            <div></div>
+            <div class="frame-frame7"></div>
+            <div class="frame-frame8"></div>
+            <div class="frame-frame9"></div>
+            <div class="frame-frame1">
+              <img
+                src="public/rectangle111822-akv7.svg"
+                alt="Rectangle111822"
+                class="frame-rectangle11"
+              />
+              <span class="frame-text"><span>Форма для регистрации</span></span>
+            </div>
+            <div class="frame-frame12">
+              <span class="frame-text02"><span>ФИО через пробел</span></span>
+            </div>
+            <div class="frame-frame13">
+              <span class="frame-text04"><span>Электронная почта</span></span>
+            </div>
+            <div class="frame-frame2">
+              <span class="frame-text06">
+                <span>Пароль и проверка пароля</span>
+              </span>
+            </div>
+          </div>
+          <div class="frame-frame3">
+            <span class="frame-text08"><span>На главную страницу</span></span>
+          </div>
+          <div class="frame-frame14">
+            <img
+              src="public/rectangle281379-cbw6.svg"
+              alt="Rectangle281379"
+              class="frame-rectangle28"
+            />
+            <div class="frame-group15">
+              <div class="frame-frame4">
+                <img
+                  src="public/rectangle274891-9rbh.svg"
+                  alt="Rectangle274891"
+                  class="frame-rectangle27"
+                />
+              </div>
+              <div class="frame-group14">
+                <div class="frame-group5">
+                  <span class="frame-text10"><span>Контакты</span></span>
+                </div>
+                <div class="frame-group6">
+                  <span class="frame-text12"><span>Подписки</span></span>
+                </div>
+                <div class="frame-group7">
+                  <span class="frame-text14"><span>Новости</span></span>
+                </div>
+                <div class="frame-group4">
+                  <span class="frame-text16"><span>Услуги</span></span>
+                </div>
+              </div>
+              <div class="frame-frame5">
+                <span class="frame-text28" onclick="openNav()" style="cursor: pointer;"><span>Меню</span></span>
+              </div>
+            </div>
+          </div>
+          <div class="frame-frame6">
+            <div class="frame-group13">
+              <span class="frame-text20"><span>О нас</span></span>
+              <span class="frame-text22"><span>Услуги</span></span>
+              <span class="frame-text24"><span>магазин</span></span>
+              <div class="frame-group12">
+                <span class="frame-text26"><span>Контакты</span></span>
+                <div class="frame-group11">
+                  <span class="frame-text28"><span>Почта:</span></span>
+                  <span class="frame-text30">
+                    <span>Valera@gmail.com</span>
+                  </span>
+                </div>
+                <div class="frame-group10">
+                  <span class="frame-text32"><span>номер телефона:</span></span>
+                  <span class="frame-text34">
+                    <span>+7(9xx)-xxx-xx-xx</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+<div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="html/main/index.html">Главная страница</a>
+      <a href="html/cpisok/index.html">Каталог</a>
+      <a href="html/podpiska/index.html">Подписка</a>
+      <a href="html/registr/index.html">Регистрация</a>
+      <a href="#" onclick="window.close()">Закрытие страницы</a>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+      }
+    </script>
+
+ </body>
+</html>

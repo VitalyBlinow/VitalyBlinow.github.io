@@ -1,0 +1,610 @@
+.minecraft-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.minecraft-minecraft {
+  gap: 10px;
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.minecraft-rectangle15 {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+}
+.minecraft-group27 {
+  top: 202px;
+  left: 760px;
+  width: 400px;
+  height: 60px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.minecraft-rectangle17 {
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 60px;
+  position: absolute;
+}
+.minecraft-text {
+  left: 106px;
+  color: rgba(255, 255, 255, 0.4000000059604645);
+  width: auto;
+  bottom: 9px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-group26 {
+  top: 744px;
+  left: 660px;
+  width: 600px;
+  height: 100px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(217, 217, 217, 0.4000000059604645);
+}
+.minecraft-text02 {
+  top: 6px;
+  left: 52px;
+  color: rgba(255, 255, 255, 0.6000000238418579);
+  width: 519px;
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-group28 {
+  top: 182px;
+  left: 1612px;
+  width: 160px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.minecraft-rectangle19 {
+  top: 0px;
+  left: 0px;
+  width: 160px;
+  height: 80px;
+  position: absolute;
+}
+.minecraft-text04 {
+  top: 20px;
+  left: 33px;
+  color: rgba(255, 255, 255, 1);
+  width: 91px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-group30 {
+  top: 278px;
+  left: 172px;
+  width: 1600px;
+  height: 450px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.minecraft-rectangle16 {
+  top: 0px;
+  left: 0px;
+  width: 1600px;
+  height: 450px;
+  position: absolute;
+}
+.minecraft-group29 {
+  top: 128.25px;
+  left: 85px;
+  width: 1440px;
+  height: 244.5px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.minecraft-text06 {
+  top: -69px;
+  left: 0px;
+  color: rgba(255, 255, 255, 1);
+  width: 1440px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-text07 {
+  text-decoration: UNDERLINE;
+}
+.minecraft-text08 {
+  text-decoration: NONE;
+}
+.minecraft-text09 {
+  text-decoration: UNDERLINE;
+}
+.minecraft-text10 {
+  text-decoration: NONE;
+}
+.minecraft-text11 {
+  text-decoration: UNDERLINE;
+}
+.minecraft-text12 {
+  text-decoration: NONE;
+}
+.minecraft-text13 {
+  text-decoration: UNDERLINE;
+}
+.minecraft-text14 {
+  text-decoration: NONE;
+}
+.minecraft-text15 {
+  text-decoration: UNDERLINE;
+}
+.minecraft-text16 {
+  text-decoration: NONE;
+}
+.minecraft-text18 {
+  text-decoration: NONE;
+}
+.minecraft-text20 {
+  text-decoration: NONE;
+}
+.minecraft-text21 {
+  text-decoration: UNDERLINE;
+}
+.minecraft-text22 {
+  text-decoration: NONE;
+}
+.minecraft-text23 {
+  text-decoration: UNDERLINE;
+}
+.minecraft-text24 {
+  text-decoration: NONE;
+}
+.minecraft-text26 {
+  text-decoration: NONE;
+}
+.minecraft-text28 {
+  text-decoration: NONE;
+}
+.minecraft-text29 {
+  text-decoration: UNDERLINE;
+}
+.minecraft-text31 {
+  top: 165.9375px;
+  color: rgba(255, 255, 255, 1);
+  width: 1419px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-text33 {
+  left: -9px;
+  color: rgba(255, 255, 255, 1);
+  width: 1410px;
+  bottom: -40px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-frame14 {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 160px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.minecraft-rectangle28 {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 160px;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+}
+.minecraft-group15 {
+  top: 16px;
+  left: 25px;
+  width: 1867px;
+  height: 128px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.minecraft-frame {
+  top: 0px;
+  left: 0px;
+  width: 128px;
+  height: 128px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.minecraft-rectangle27 {
+  top: 0px;
+  left: 0px;
+  width: 128px;
+  height: 128px;
+  position: absolute;
+}
+.minecraft-group14 {
+  top: 28px;
+  left: 225px;
+  width: 1269px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.minecraft-group5 {
+  top: 0px;
+  left: 326px;
+  width: 300px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(0, 255, 147, 1);
+}
+.minecraft-text35 {
+  top: 14px;
+  left: 70px;
+  color: rgba(0, 0, 0, 1);
+  width: 160px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-group6 {
+  top: 0px;
+  left: 652px;
+  width: 300px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(0, 255, 147, 1);
+}
+.minecraft-text37 {
+  top: 14px;
+  left: 70px;
+  color: rgba(0, 0, 0, 1);
+  width: 160px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-group7 {
+  top: 0px;
+  left: 969px;
+  width: 300px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(0, 255, 147, 1);
+}
+.minecraft-text39 {
+  top: 14px;
+  left: 70px;
+  color: rgba(0, 0, 0, 1);
+  width: 160px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-group4 {
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 80px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(0, 255, 147, 1);
+}
+.minecraft-text41 {
+  top: 18px;
+  left: 70px;
+  color: rgba(0, 0, 0, 1);
+  width: 160px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-frame1 {
+  top: 14px;
+  left: 1567px;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 122, 0, 1);
+}
+.minecraft-text43 {
+  top: 20px;
+  left: 40px;
+  color: rgba(255, 255, 255, 1);
+  width: 220px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-frame2 {
+  top: 900px;
+  left: 0px;
+  width: 1920px;
+  height: 180px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(51, 0, 255, 1) 0%, rgba(15, 1, 74, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.minecraft-group13 {
+  top: 12px;
+  left: 244px;
+  width: 1230px;
+  height: 151px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.minecraft-text45 {
+  color: rgba(0, 0, 0, 1);
+  width: 100px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-text47 {
+  left: 216px;
+  color: rgba(0, 0, 0, 1);
+  width: 100px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-text49 {
+  left: 432px;
+  color: rgba(0, 0, 0, 1);
+  width: 100px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-group12 {
+  top: 0px;
+  left: 759px;
+  width: 471px;
+  height: 151px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.minecraft-text51 {
+  color: rgba(0, 0, 0, 1);
+  width: 180px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-group11 {
+  top: 42px;
+  left: 39px;
+  width: 432px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.minecraft-text53 {
+  color: rgba(0, 0, 0, 1);
+  width: 100px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-text55 {
+  top: 3px;
+  left: 112px;
+  color: rgba(0, 0, 0, 1);
+  width: 320px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-group10 {
+  top: 97px;
+  left: 39px;
+  width: 415px;
+  height: 54px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.minecraft-text57 {
+  top: 4px;
+  color: rgba(0, 0, 0, 1);
+  width: 100px;
+  height: auto;
+  position: absolute;
+  font-size: 11px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.minecraft-text59 {
+  left: 128px;
+  color: rgba(0, 0, 0, 1);
+  width: 287px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
